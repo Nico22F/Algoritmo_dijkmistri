@@ -45,7 +45,7 @@ namespace Algoritmo_dijkmistri
                             {
                                 matrice[i, j] = -1;
                             }
-                            else
+                            else 
                             {
                                 matrice[i, j] = 1;
                             }
