@@ -88,7 +88,7 @@ namespace Algoritmo_dijkmistri
         public static int Randomizzare_casuale()
         {
             Random rnd = new Random();
-            int n = rnd.Next(0, 2);
+            int n = rnd.Next(-1, 1);
             return n;
         }
 
